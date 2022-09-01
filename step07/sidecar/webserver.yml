@@ -14,8 +14,8 @@ spec:
       readOnly: true
       
   - name: cloner       ## 사이드카 컨테이너
-    image: maho/c-cloner:0.1
-    env:
+    image: alphajin1/c-cloner:0.1
+    env: # 환경변수 설정
     - name: CONTENTS_SOURCE_URL
       value: "https://github.com/takara9/web-contents"
     volumeMounts:

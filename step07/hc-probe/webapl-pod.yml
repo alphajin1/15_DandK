@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: webapl
-    image: maho/webapl:0.1    # (1)핸드러를 구현한 애플리케이션 
+    image: alphajin1/webapl:0.2    # (1)핸드러를 구현한 애플리케이션
     livenessProbe:            # (2)애플리케이션이 살아있는지 확인
       httpGet:
         path: /healthz        # 확인 경로
